@@ -36,4 +36,4 @@ if __name__ == "__main__":
             "objects": objects
         }
 
-    json.dump(index, open(path.join(VERSION, "index.json"), "w"))
+    json.dump(index, open(path.join(VERSION, "index.json"), "w"), indent=2)

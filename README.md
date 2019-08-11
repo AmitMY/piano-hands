@@ -5,7 +5,7 @@ This dataset contains object tagging of right and left hands on a piano backgrou
 Its purpose is to detect hands from videos of piano playing.
 
 ## Using the dataset
-The directory `versions` includes all of the available versions for this dataset.
+The directory [versions](versions) includes all of the available versions for this dataset.
 
 ## Manually tagging the dataset
 - From `videos` execute `download.sh` which downloads 200+ youtube videos.
