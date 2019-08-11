@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>Chopin_-_Etude_Op._10_No._1_(Waterfall)-JRgQgr4-at8.webm_4087.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\Chopin_-_Etude_Op._10_No._1_(Waterfall)-JRgQgr4-at8.webm_4087.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

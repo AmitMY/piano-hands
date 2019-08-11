@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>TheFatRat_-_MAYDAY_ft._Laura_Brehm_(Piano_Cover)-VTRmMxPMy6s.webm_8338.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\TheFatRat_-_MAYDAY_ft._Laura_Brehm_(Piano_Cover)-VTRmMxPMy6s.webm_8338.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

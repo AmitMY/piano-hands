@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>Billie_Eilish_-_when_the_party's_over_(Piano_Cover)-UXG1py42Bss.webm_6339.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\Billie_Eilish_-_when_the_party's_over_(Piano_Cover)-UXG1py42Bss.webm_6339.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

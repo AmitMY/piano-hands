@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>Liszt_-_La_Campanella_(100,000_special)-H1Dvg2MxQn8.mkv_2303.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\Liszt_-_La_Campanella_(100,000_special)-H1Dvg2MxQn8.mkv_2303.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1444</xmin>
+			<ymin>522</ymin>
+			<xmax>1722</xmax>
+			<ymax>791</ymax>
+		</bndbox>
+	</object>
+</annotation>

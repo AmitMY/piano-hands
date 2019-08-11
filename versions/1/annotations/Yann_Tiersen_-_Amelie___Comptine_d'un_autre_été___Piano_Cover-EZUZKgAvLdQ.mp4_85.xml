@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>Yann_Tiersen_-_Amelie___Comptine_d'un_autre_été___Piano_Cover-EZUZKgAvLdQ.mp4_85.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\Yann_Tiersen_-_Amelie___Comptine_d'un_autre_été___Piano_Cover-EZUZKgAvLdQ.mp4_85.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>left</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>663</xmin>
+			<ymin>796</ymin>
+			<xmax>944</xmax>
+			<ymax>1037</ymax>
+		</bndbox>
+	</object>
+</annotation>

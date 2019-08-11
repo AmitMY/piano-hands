@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>Cloudburst_-_Greg_Maroney_Piano_[Intermediate]-CG-Hk1hCdTg.mp4_7531.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\Cloudburst_-_Greg_Maroney_Piano_[Intermediate]-CG-Hk1hCdTg.mp4_7531.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>left</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>603</ymin>
+			<xmax>271</xmax>
+			<ymax>887</ymax>
+		</bndbox>
+	</object>
+</annotation>

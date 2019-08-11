@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>frames</folder>
+	<filename>Alan_Walker_-_Faded_(Piano_Cover)-LSwXh1Y5thY.webm_7241.jpg</filename>
+	<path>D:\dev\research\piano-fingering-extraction\components\hand_dataset\frames\Alan_Walker_-_Faded_(Piano_Cover)-LSwXh1Y5thY.webm_7241.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
