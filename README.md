@@ -6,6 +6,7 @@ Its purpose is to detect hands from videos of piano playing.
 
 ## Using the dataset
 The directory [versions](versions) includes all of the available versions for this dataset.
+They can also be found under the `releases` tab on GitHub.
 
 ## Manually tagging the dataset
 - From `videos` execute `download.sh` which downloads 200+ youtube videos.
