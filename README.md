@@ -10,7 +10,13 @@ They can also be found under the `releases` tab on GitHub.
 
 ## Object Detection Model
 We fine-tuned a "Faster RCNN Inception v2 COCO" model from the tensorflow official repository.
+
+#### Easy Video
 ![Detection Results](model/assets/video.gif)
+
+#### Harder Video
+![Detection Results](model/assets/harder.gif)
+
 
 We include the training script, checkpoint, and a simple python file for example of use. 
 
