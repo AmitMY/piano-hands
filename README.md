@@ -10,6 +10,7 @@ They can also be found under the `releases` tab on GitHub.
 
 ## Object Detection Model
 We fine-tuned a "Faster RCNN Inception v2 COCO" model from the tensorflow official repository.
+Note our model does not include any tracking. Every video frame is processed independently.
 
 #### Easy Video - [Alan Walker - Faded](https://www.youtube.com/watch?v=LSwXh1Y5thY)
 ![Detection Results](model/assets/video.gif)
@@ -19,6 +20,8 @@ We fine-tuned a "Faster RCNN Inception v2 COCO" model from the tensorflow offici
 
 
 We include the training script, checkpoint, and a simple python file for example of use. 
+**PRO TIP:** If you train a model, make sure there is no "horizontal flip" augmentation.
+If you know there are a maximum of 2 hands in a frame, you can heuristically fix mistakes of tagging both hands as left or right.
 
 ## Manually tagging the dataset
 - From `videos` execute `download.sh` which downloads 200+ youtube videos.
