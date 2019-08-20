@@ -11,10 +11,10 @@ They can also be found under the `releases` tab on GitHub.
 ## Object Detection Model
 We fine-tuned a "Faster RCNN Inception v2 COCO" model from the tensorflow official repository.
 
-#### Easy Video
+#### Easy Video - [Alan Walker - Faded](https://www.youtube.com/watch?v=LSwXh1Y5thY)
 ![Detection Results](model/assets/video.gif)
 
-#### Harder Video
+#### Harder Video - [Liszt - La Campanella](https://www.youtube.com/watch?v=H1Dvg2MxQn8)
 ![Detection Results](model/assets/harder.gif)
 
 
