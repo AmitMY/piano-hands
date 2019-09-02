@@ -1,7 +1,7 @@
 from functools import lru_cache
 
 import numpy as np
-from Pillow import Image
+from PIL import Image
 
 import tensorflow as tf
 
