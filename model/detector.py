@@ -1,5 +1,3 @@
-from functools import lru_cache
-
 import numpy as np
 from PIL import Image
 
@@ -9,6 +7,22 @@ PATH_TO_CKPT = 'checkpoint.pb'
 PATH_TO_LABELS = 'components/hand_dataset/configuration/labelmap.pbtxt'
 
 THRESHOLD = 0.9
+
+try:
+    from functools import lru_cache
+except ImportError:
+    def lru_cache(function):
+        memo = {}
+
+        def wrapper(*args):
+            if args in memo:
+                return memo[args]
+            else:
+                rv = function(*args)
+                memo[args] = rv
+                return rv
+
+        return wrapper
 
 
 @lru_cache()
