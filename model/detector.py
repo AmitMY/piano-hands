@@ -45,7 +45,7 @@ def get_detector():
 
 
 if __name__ == "__main__":
-    frame = np.uint8(Image.open("assets/image.png"))
+    frame = np.uint8(Image.open("assets/piano.jpg"))
     frame_expanded = np.expand_dims(frame, axis=0)
     sess, image_tensor, other_tensors = get_detector()
 
