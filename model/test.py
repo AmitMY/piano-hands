@@ -16,13 +16,12 @@ class TestDetector(unittest.TestCase):
 
         relevant = [boxes[i] for i, score in enumerate(scores) if score > THRESHOLD]
 
-        for box in relevant:
-            print("Box", box)
+        self.assertEqual(len(relevant), 2)
+        self.assertEqual(tuple(relevant[0]), (0.5095517, 0.37182114, 0.7621389, 0.50664663))
+        self.assertEqual(tuple(relevant[1]), (0.5725339, 0.57973766, 0.8249363, 0.7019011))
 
-        print(classes[:len(relevant)])
-        #
-        # self.assertEqual(classes[0], 1)
-        # self.assertEqual(classes[1], 2)
+        self.assertEqual(classes[0], 1)
+        self.assertEqual(classes[1], 2)
 
 
 if __name__ == '__main__':

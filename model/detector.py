@@ -10,8 +10,10 @@ THRESHOLD = 0.9
 
 try:
     from functools import lru_cache
+
+    cache = lru_cache()
 except ImportError:
-    def lru_cache(function):
+    def cache(function):
         memo = {}
 
         def wrapper(*args):
@@ -25,7 +27,7 @@ except ImportError:
         return wrapper
 
 
-@lru_cache()
+@cache
 def get_detector():
     # Load the Tensorflow model into memory.
     detection_graph = tf.Graph()
