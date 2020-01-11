@@ -13,10 +13,10 @@ We fine-tuned a "Faster RCNN Inception v2 COCO" model from the tensorflow offici
 Note our model does not include any tracking. Every video frame is processed independently.
 
 #### Easy Video - [Alan Walker - Faded](https://www.youtube.com/watch?v=LSwXh1Y5thY)
-![Detection Results](https://github.com/AmitMY/piano-hands/raw/master/model/assets/video.gif)
+![Detection Results](https://bit.ly/30lcZBn)
 
 #### Harder Video - [Liszt - La Campanella](https://www.youtube.com/watch?v=H1Dvg2MxQn8)
-![Detection Results](https://github.com/AmitMY/piano-hands/raw/master/model/assets/harder.gif)
+![Detection Results](https://bit.ly/2t7r2y6)
 
 
 We include the training script, checkpoint, and a simple python file for example of use. 
